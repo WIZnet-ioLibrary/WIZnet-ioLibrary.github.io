@@ -40,11 +40,6 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
   	- [W5100S-EVB](https://github.com/Wiznet/W5100S-EVB)
   		- DMA, Loopback, DHCP client
 		
-- W5x00
-	- [W5x00-Multicast ](https://github.com/WIZnet-ioLibrary/W5x00-Multicast)
-  	- [W5x00-TLS](https://github.com/WIZnet-ioLibrary/W5x00-TLS)
-  	- [W5100S-EVB](https://github.com/Wiznet/W5100S-EVB)
-  		- DMA, Loopback, DHCP client
 
 - W5500
 	- [Loopback_FRDM-KL25Z_Eclipse](https://github.com/Wiznet/Loopback_FRDM-KL25Z_Eclipse)
@@ -90,7 +85,16 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
  - WIZ550WEB
  	- [WIZ550Web_STM32F103RB_CoIDE](https://github.com/Wiznet/WIZ550Web_STM32F103RB_CoIDE)
  	- [W6100-EVB-gcc-eclipse](https://github.com/Wiznet/W6100-EVB-gcc-eclipse)
-
+	
+ - W7100A/W7100
+ 	- [Application notes](http://old.wiznet.co.kr/sub_modules/kr/resources/Download_View.asp?PK_Num=668&page=1&SF_Part=&SF_KeyWord=)
+	  	- DDNS, Serial to Ethernet, Telnet
+		
+ - W7200
+ 	- [Application notes](http://old.wiznet.co.kr/sub_modules/kr/resources/Download_View.asp?PK_Num=636&page=1&SF_Part=&SF_KeyWord=)
+	  	- SMTP, SNMP, Twitter, UPnP		
+		
+	
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
