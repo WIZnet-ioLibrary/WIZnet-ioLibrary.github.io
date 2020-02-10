@@ -5,12 +5,12 @@ Also the projects of W5100,W5200 and W5300 were implemented as AVRs and It is no
 
 # Test Environment 
 
- |||||
- |---------|:-----:|:-----:|:-----:|
- |**BaseBoard for Test**| |W5100S-EVB(W5100S + STM32F103VCT6)![image](https://user-images.githubusercontent.com/9648281/73633113-2c971800-46a1-11ea-900b-22d7305a26a3.png) ||
- |**io module**| WIZ810Sio(W5100S)![image](https://user-images.githubusercontent.com/9648281/73632572-73840e00-469f-11ea-8124-f1d4f37b6676.png)|WIZ850io(W5500)![image](https://user-images.githubusercontent.com/9648281/73632585-7b43b280-469f-11ea-85f5-4705ebfb7790.png)|W820io(W5200)![image](https://user-images.githubusercontent.com/9648281/73632604-8565b100-469f-11ea-8214-8a64e3ef68d9.png)
-|
- |
+ |                        |                                                                                                                                |                                                                                                                                                 |                                                                                                                            |
+  | ---------------------- | :----------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------: |
+ | **BaseBoard for Test** |                                                                                                                                | W5100S-EVB(W5100S + STM32F103VCT6)![image](https://user-images.githubusercontent.com/9648281/73633113-2c971800-46a1-11ea-900b-22d7305a26a3.png) |                                                                                                                            |
+ | **io module**          | WIZ810Sio(W5100S)![image](https://user-images.githubusercontent.com/9648281/73632572-73840e00-469f-11ea-8124-f1d4f37b6676.png) |          WIZ850io(W5500)![image](https://user-images.githubusercontent.com/9648281/73632585-7b43b280-469f-11ea-85f5-4705ebfb7790.png)           | W820io(W5200)![image](https://user-images.githubusercontent.com/9648281/73632604-8565b100-469f-11ea-8214-8a64e3ef68d9.png) |
+ |                        |
+
 
 
 # Plan 
@@ -30,9 +30,9 @@ Also the projects of W5100,W5200 and W5300 were implemented as AVRs and It is no
 | FTP Client  |           [[P](https://github.com/WIZnet-ioLibrary/W6100EVB-FTPC)]           |                                                                                  |       |                                             |       |       |                                                                 |
 | FTP Server  |        [[P](https://github.com/WIZnet-ioLibrary/W6100EVB-FTPServer)]         |                                                                                  |       |                                             |       |       |    [[P](https://github.com/Wiznet/FTPC_LPC11E36_LPCXpresso)]    |
 | MQTT        |           [[P](https://github.com/WIZnet-ioLibrary/W6100EVB-MQTT)]           |                                                                                  |       |                                             |       |       |                                                                 |
-| SNMPv1      |                                                                              |                                      [W-I]                                       |       |                                             |       |       |   [[P](https://github.com/Wiznet/SNMP_LPC11E36_LPCXpresso)]    |
+| SNMPv1      |                                                                              |                                      [W-I]                                       |       |                                             |       |       |    [[P](https://github.com/Wiznet/SNMP_LPC11E36_LPCXpresso)]    |
 | SMTP        |                                                                              |                                                                                  |       |                                             |       |       |    [[P](https://github.com/Wiznet/SNTP_LPC11E36_LPCXpresso)]    |
-| SNTP        |                                                                              |        [W-I]                                                                           |       |                                             |       |       |    [[P](https://github.com/Wiznet/SNTP_LPC11E36_LPCXpresso)]    |
+| SNTP        |                                                                              |                                      [[C-I](https://github.com/WIZnet-ioLibrary/W5x00_SNTP)] 2.7                                      |       |                                             |       |       |    [[P](https://github.com/Wiznet/SNTP_LPC11E36_LPCXpresso)]    |
 | TFTP        |                                                                              |                                                                                  |       |                                             |       |       |    [[P](https://github.com/Wiznet/TFTP_LPC11E36_LPCXpresso)]    |
 | HTTP Server |       [[P](https://github.com/WIZnet-ioLibrary/W6100EVB-HTTP_Server)]        |                                                                                  |       |                                             |       |       | [[P](https://github.com/Wiznet/HTTPServer_LPC11E36_LPCXpresso)] |
 | HTTP Client |                 [[P](https://github.com/WIZnet-ioLibrary/)]                  |                                                                                  |       |                                             |       |       |                                                                 |
