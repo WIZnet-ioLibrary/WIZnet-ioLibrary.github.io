@@ -24,8 +24,8 @@ Also the projects of W5100,W5200 and W5300 were implemented as AVRs and It is no
 | TEST        |                                                                              |                                        1                                         |   2   |                      3                      |   4   |   5   |                                6                                |
 | Loopback    |         [[P](https://github.com/WIZnet-ioLibrary/W6100EVB-Loopback)]         | [[C-I](https://github.com/WIZnet-ioLibrary/W5x00_Loopback_with_W5100S_EVB)] 1.14 |       | [[P](https://github.com/Wiznet/W5100S-EVB)] |       |       |  [[P](https://github.com/Wiznet/Loopback_FRDM-KL25Z_Eclipse)]   |
 | SPI DMA     |                                                                              |   [[C-I](https://github.com/WIZnet-ioLibrary/W5x00_DMA_with_W5100S_EVB)] 1.14    |       | [[P](https://github.com/Wiznet/W5100S-EVB)] |       |       |                                                                 |
-| DHCP        |                                                                              |         [[C-I](https://github.com/WIZnet-ioLibrary/W5x00_DHCP)]2.11                                                                         |       |                                             |       |       |                                                                 |
-| DNS         |           [[P](https://github.com/WIZnet-ioLibrary/W6100EVB-DNS)]            |             [[C-I](https://github.com/WIZnet-ioLibrary/W5x00_DNS)]2.11                                                                     |       |                                             |       |       |                                                                 |
+| DHCP        |                                                                              |         [[C-I](https://github.com/WIZnet-ioLibrary/W5x00_DHCP)] 2.11                                                                         |       |                                             |       |       |                                                                 |
+| DNS         |           [[P](https://github.com/WIZnet-ioLibrary/W6100EVB-DNS)]            |             [[C-I](https://github.com/WIZnet-ioLibrary/W5x00_DNS)] 2.11                                                                     |       |                                             |       |       |                                                                 |
 | DDNS        |                                                                              |                                                                                  |       |                                             |       |       |    [[P](https://github.com/Wiznet/DDNS_LPC11E36_LPCXpresso)]    |
 | FTP Client  |           [[P](https://github.com/WIZnet-ioLibrary/W6100EVB-FTPC)]           |                                                                                  |       |                                             |       |       |                                                                 |
 | FTP Server  |        [[P](https://github.com/WIZnet-ioLibrary/W6100EVB-FTPServer)]         |                                                                                  |       |                                             |       |       |    [[P](https://github.com/Wiznet/FTPC_LPC11E36_LPCXpresso)]    |
@@ -55,7 +55,9 @@ Also the projects of W5100,W5200 and W5300 were implemented as AVRs and It is no
   	- [W5x00-TLS](https://github.com/WIZnet-ioLibrary/W5x00-TLS)
   	- [W5x00-DMA(SPI)-Loopback](https://github.com/WIZnet-ioLibrary/W5x00_DMA_with_W5100S_EVB)
   	- [W5x00-Loopback](https://github.com/WIZnet-ioLibrary/W5x00_Loopback_with_W5100S_EVB)
-
+  	- [W5x00-DHCP](https://github.com/WIZnet-ioLibrary/W5x00_DHCP)
+    - [W5x00-DNS](https://github.com/WIZnet-ioLibrary/W5x00_DNS)
+    - [W5x00-SNTP](https://github.com/WIZnet-ioLibrary/W5x00_SNTP)
 - W5100
     - [W5100S-EVB](https://github.com/Wiznet/W5100S-EVB)
     	- DMA, Loopback, DHCP client example project 
